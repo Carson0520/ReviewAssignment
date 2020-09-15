@@ -21,6 +21,7 @@ public class Momentum {
         
         //print the answer
         System.out.println(String.format("The objects momentum is %.2f", momentum));
+        System.out.println("Program Ended");
         
         
     }
