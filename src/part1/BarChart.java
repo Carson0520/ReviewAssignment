@@ -1,5 +1,5 @@
 
-package defaultpackage;
+package part1;
 
 /**
  *
