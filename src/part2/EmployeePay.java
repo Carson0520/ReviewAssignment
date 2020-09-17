@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package part2;
 
-/**
- *
- * @author cars0520
- */
+
 public class EmployeePay {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        int hours;
+        double wage;
+        System.out.println("Enter hours worked for Employee 1: ");
+        for (int wage = 0; hours < 40; hour++) {
+            
+            System.out.println("" + regpay);
+        }
+
     }
     
 }

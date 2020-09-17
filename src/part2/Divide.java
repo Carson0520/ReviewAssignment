@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package part2;
 
-/**
- *
- * @author cars0520
- */
+import java.util.Scanner;
+
+
 public class Divide {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        int num1, num2;
+        int nums = 0, numb = 0,answer = 0, answermod = 0;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter number 1");
+        num1 = s.nextInt();
+        System.out.println("Enter number 2");
+        num2 = s.nextInt();
+        
+        if (num2 > num1){
+            num2 = nums;
+            num1 = numb;
+            answer = numb / nums;
+            answermod = numb % nums;
+            System.out.print("Answer is " + answer + " r" + answermod);       }
     }
     
 }
