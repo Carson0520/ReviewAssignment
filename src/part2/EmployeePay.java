@@ -10,8 +10,12 @@ public class EmployeePay {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int hours;
+        int employee = 0;
         double wage, pay, ot;
-        System.out.println("Enter hours worked for Employee 1: ");
+        for (int i = 0; i < 5; i++) {
+            employee++;
+        
+        System.out.println("Enter hours worked for Employee " + employee + ": ");
         hours = s.nextInt();
         if (hours > 40 && hours < 70){
             pay = 40 * 15.00;
@@ -27,6 +31,7 @@ public class EmployeePay {
     }
         else
             System.out.println("Invalid, try again");
+    }
     }
     
 }
