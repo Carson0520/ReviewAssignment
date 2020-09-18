@@ -32,6 +32,10 @@ public class SalaryTable {
         for (int year = 1; year <= 10; year++) {
             System.out.format("%5d", year);
             System.out.format("%20s", nf.format(sal));
+            if(year==1){
+                raise = 0;
+            }
+            else
             raise = (int)(.03 * sal); //have to cast integer
             System.out.format("%15s", nf.format(raise));
             sal += raise;
